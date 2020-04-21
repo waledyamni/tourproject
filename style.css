@@ -37,6 +37,64 @@ html {
 /* END OF COOMN STYLES*/
 
 
+
+#myHeader {
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: absolute;
+} 
+#innerHeader {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+#logo {
+    height: 100%;
+    display: table;
+    float: left;
+} 
+
+#logo h4 span {
+    color: white;
+}
+#logo h4 :hover {
+    color: rgba(51,51,51,.4);
+}
+
+.nav {
+    float: right;
+    height: 60%;
+
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.nav a li {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+.nav a :last-child {
+    padding-right: 0px;
+}
+ a li:hover {
+    color: rgba(51,51,51,.4);;
+}
+/* end of header */
+
+
 /* Header*/
 
 .header {
@@ -191,6 +249,7 @@ html {
 }
 /* END OF Header*/
 
+
 /* popular tour part */
 .popular-tours {
     padding: 5rem 0 10rem 0;
@@ -274,7 +333,7 @@ html {
      opacity: .7;
 }
 .change > .back-side {
-    transform: translateZ(-5rem)translateX(3rem);
+    transform: translateZ(0rem)translateX(0rem);
     box-shadow: 0 .5rem 2rem #aaa;
     opacity: .5;
 }
@@ -384,9 +443,109 @@ html {
 
 }
 
-
-
-
 /*end of storeis*/
+/* start of contact*/
+.contact {
+    padding: 15rem;
+    text-align: center;
+    background: url(images/navbar-bg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.contact-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    color: var(--while-color);
+    text-shadow: 0 1rem 2rem #000;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+}
+.contact-form {
+    width: 70rem;
+    height: 30rem;
+    background-color: rgba(255,255,255,0);
+    margin : auto;
+    flex-direction: column;
+    border-radius: .5rem;
+    box-shadow: 0 7rem 7rem #000;
+    padding: 3rem;
+
+}
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    position: relative;
+
+}
+.input-groups {
+    width: 100%;
+    display: flex;
+}
+.input-groups .input-group {
+    width: 48.5%;
+}
+.input-group input,
+.input-group textarea {
+    padding: 5rem 1rem 1rem 1 rem;
+    background-color:  rgba(255,255,255,0.5);
+    border: 1rem solid var(--secondary-color);
+    font-size: .7rem;
+    color: var(--light-grey-color);
+    letter-spacing: .1rem;
+    border-radius: .5rem;
+
+}
+.input-group textarea {
+    height: 7rem;
+    padding-top: 2rem;
+}
+
+.input-group input,
+.input-group textarea {
+    border: .1rem solid #ccc;
+    
+}
+
+.contact-input2  {
+    margin-left: 2rem;
+}
+.input-group label {
+    font-size: .2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: var(--gry-color);
+    position: absolute;
+    top:.03rem;
+    left: 1.7rem;
+
+}
+.contact-input {
+    height: 60px;
+    width: 100%;
+
+}
+.form-btn {
+    width: 15%;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-top: .1rem;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+
+/* end of contact*/
 
 
