@@ -407,7 +407,7 @@ html {
     padding: 2rem;
     margin: 5rem;
     width: 70%;
-    box-shadow: 0 2rem 5rem rgba(51,51,51,.4);
+    box-shadow: 0 2rem 1.5rem rgba(51,51,51,.4);
     transform: skew(15deg);
 
 }
@@ -448,7 +448,7 @@ html {
 .contact {
     padding: 15rem;
     text-align: center;
-    background: url(images/navbar-bg.jpg);
+    background: url("navbar-bg.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
