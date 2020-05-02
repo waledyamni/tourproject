@@ -1,7 +1,7 @@
 Array.from(document.querySelectorAll
- (".navigation-button")).forEach(item) => {
+ (".navigation-button")).forEach((item) => {
   item.onclick = ()=> {
-      item.parentElement.classList.toggle("change");
+      item.parentElement.parentElement.classList.toggle("change");
   };  
 });
 
